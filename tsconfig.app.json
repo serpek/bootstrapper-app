@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "@bipweb/common": [
+        "./src/api/common",
+        "./src/api/common/*"
+      ],
+      "@bipweb/data": [
+        "./src/api/data",
+        "./src/api/data/*"
+      ],
+      "@bipweb/utils": [
+        "./src/api/utils",
+        "./src/api/utils/*"
+      ],
+      "@bipweb/business": [
+        "./src/api/business",
+        "./src/api/business/*"
+      ],
+      "@bipweb/core": [
+        "./src/api/core",
+        "./src/api/core/*"
+      ],
+      "@bipweb/shared": [
+        "./src/api/shared",
+        "./src/api/shared/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

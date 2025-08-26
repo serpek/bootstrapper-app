@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "appName": {
+      "type": "string"
+    },
+    "authApiAddress": {
+      "type": "string",
+      "format": "uri"
+    },
+    "authSocketAddress": {
+      "type": "string",
+      "format": "uri"
+    },
+    "configMode": {
+      "type": "string"
+    },
+    "debug": {
+      "type": "boolean"
+    },
+    "domain": {
+      "type": "string",
+      "format": "uri"
+    },
+    "mobileResourceName": {
+      "type": "string"
+    },
+    "publicUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "resource": {
+      "type": "string"
+    },
+    "webResourceName": {
+      "type": "string"
+    },
+    "xmppSocketAddress": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "appName",
+    "mobileResourceName",
+    "resource",
+    "webResourceName",
+    "configMode",
+    "publicUrl",
+    "authApiAddress",
+    "domain",
+    "authSocketAddress",
+    "xmppSocketAddress",
+    "debug"
+  ],
+  "type": "object"
+}

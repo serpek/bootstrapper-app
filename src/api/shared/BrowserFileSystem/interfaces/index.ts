@@ -1,0 +1,5 @@
+export * from './ICacheService'
+export * from './IFileOperationsAdapter'
+export * from './IFileSystemConfig'
+export * from './IMediaProcessorService'
+export * from './IMetadataService'
